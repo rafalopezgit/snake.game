@@ -4,27 +4,31 @@
 #canvas {
   border: 5px double black;
   background-color: rgba(233, 243, 140, 0.62);
-  margin-top: 2%;
-  margin-left: 10%;
-  margin-right: auto;
 }
 
 body {
   background-image: url("img/snake-game-background.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100% 120%;
+  background-size: 100%;
 
 }
 
+.titleScore {
+  float: left;
+  font-family: "Press Start 2P", cursive;
+  font-size: 15px;
+  border: 2px solid orange;
+}
 #score {
   font-family: "Press Start 2P", cursive;
-  float: left;
+  font-size: 30px;
 }
 
 #playBtn {
   font-family: "Press Start 2P", cursive;
-  border-color: yellow;
-  float: right;
-  margin-right: 10%;
+}
+
+.rightCol {
+  margin-top: 50px;
 }
