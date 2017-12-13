@@ -2,19 +2,43 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="snake-style.css">
     <title>Snake Game</title>
   </head>
   <body>
+  <div class="container-fluid">
+    <div class="row">
 
-    <!-- <button id="playBtn">Start Game</button> -->
-    <!-- <script> -->
-    <canvas id="canvas"> </canvas>
-    <!-- </script> -->
-    <script src="lib/fruit.js"> </script>
-    <script src="lib/node.js"> </script>
-    <script src="lib/snake.js"> </script>
-    <script src="lib/game.js"> </script>
+      <!-- Section Left -->
 
+      <div class="col-md-1">
+      </div>
+
+      <!-- Section Middle -->
+      <div class="col-md-7">
+        <div>
+          <h3 id="playBtn">Press ENTER to START Game</h3>
+          </div>
+        <canvas id="canvas"> </canvas>
+      </div>
+
+      <!-- Section Right -->
+      <div class="col-md-4 rightCol">
+        <img src="img/logosnake.png">
+        <div class="titleScore">
+          <div>SCORE</div>
+          <div id="score"></div>
+        </div>
+      </div>
+
+  </div>
+
+      <!-- </script> -->
+      <script src="lib/fruit.js"> </script>
+      <script src="lib/node.js"> </script>
+      <script src="lib/snake.js"> </script>
+      <script src="lib/game.js"> </script>
+  </div>
   </body>
 </html>

@@ -1,3 +1,42 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P");
+
+
 #canvas {
-  border: 5px solid black;
+  border: 5px double black;
+  background-color: rgba(233, 243, 140, 0.62);
+}
+
+body {
+  background-image: url("img/snake-game-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: #98B503;
+}
+
+.titleScore {
+  font-family: "Press Start 2P", cursive;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-right: 20%;
+  text-align: center;
+  background-color: black;
+  color: #f3c03e;
+  height: 90px;
+  width: auto;
+  border: 2px solid #b92e2e;
+}
+#score {
+  font-family: "Press Start 2P", cursive;
+  font-size: 30px;
+}
+
+#playBtn {
+  font-family: "Press Start 2P", cursive;
+  color: yellow;
+  visibility: visible;
+}
+
+.rightCol {
+  margin-top: 50px;
 }
